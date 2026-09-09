@@ -1,4 +1,4 @@
-# 🛍️ Analisis Sentimen Ulasan Aplikasi Tokopedia
+# Analisis Sentimen Ulasan Aplikasi Tokopedia
 
 Proyek ini melakukan analisis sentimen (positif, netral, negatif) terhadap ulasan pengguna aplikasi Tokopedia di Google Play Store menggunakan pendekatan Machine Learning (SVM, Random Forest, Logistic Regression) dan Deep Learning (GRU dengan Word2Vec).
 
