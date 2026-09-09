@@ -22,11 +22,11 @@ Catatan: notebook ini dibuat dan dijalankan di Google Colab. File model hasil pe
 
 ## 🔄 Alur Kerja
 
-1. **🕸️ Scraping (`scrapping.ipynb`)**
+1. **Scraping (`scrapping.ipynb`)**
    - Mengambil ulasan aplikasi Tokopedia (`com.tokopedia.tkpd`) dari Google Play Store menggunakan `google-play-scraper`.
    - Menyimpan hasil ke `tokopedia_reviews.csv`.
 
-2. **🧠 Pelatihan Model (`pelatihan_model.ipynb`)**
+2. **Pelatihan Model (`pelatihan_model.ipynb`)**
    - **Preprocessing Text**: cleaning, case folding, tokenizing, stopword removal (NLTK), dan stemming (Sastrawi).
    - **Pelabelan**: pelabelan otomatis sentimen (positif/negatif/netral) menggunakan lexicon kata opini berbahasa Indonesia.
    - **Eksplorasi Data**: visualisasi distribusi label dan word cloud.
@@ -34,7 +34,7 @@ Catatan: notebook ini dibuat dan dijalankan di Google Colab. File model hasil pe
    - **Pelatihan Model**: melatih 4 model klasifikasi (SVM, Random Forest, Logistic Regression, GRU).
    - **Penyimpanan Model**: menyimpan model dan artefak (vectorizer, tokenizer) ke file.
 
-3. **🔍 Inference (`inference.ipynb`)**
+3. **Inference (`inference.ipynb`)**
    - Memuat kembali model dan artefak yang sudah disimpan.
    - Melakukan prediksi sentimen terhadap contoh ulasan baru menggunakan keempat model sekaligus.
 
