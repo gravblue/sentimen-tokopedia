@@ -10,11 +10,11 @@ Data ulasan diambil langsung dari Google Play Store menggunakan library `google-
 
 ```
 .
-├── scrapping.ipynb          # 🕸️ Scraping ulasan dari Google Play Store
-├── pelatihan_model.ipynb    # 🧠 Preprocessing, pelabelan, EDA, dan pelatihan model
-├── inference.ipynb          # 🔍 Uji coba prediksi dengan model yang sudah dilatih
-├── tokopedia_reviews.csv    # 📊 Dataset hasil scraping ulasan Tokopedia
-├── requirements.txt         # 📦 Daftar dependency Python
+├── scrapping.ipynb          # Scraping ulasan dari Google Play Store
+├── pelatihan_model.ipynb    # Preprocessing, pelabelan, EDA, dan pelatihan model
+├── inference.ipynb          # Uji coba prediksi dengan model yang sudah dilatih
+├── tokopedia_reviews.csv    # Dataset hasil scraping ulasan Tokopedia
+├── requirements.txt         # Daftar dependency Python
 └── README.md
 ```
 
